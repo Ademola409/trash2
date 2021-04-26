@@ -1,0 +1,283 @@
+body { 
+  font-family: roboto; 
+  font-weight: 400;
+}
+
+.navbarDiv{
+  background:#FFFFFF;
+  width: 100%;
+  height: 103px;
+}
+
+.btnNav{
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: black;
+  margin-right:20px ;
+}
+
+.btnSignUp{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 10px;
+  background: #2E985F;
+  border: 1px solid #2E985F;
+  color: white;
+  font-size: 18px;
+
+}
+
+.navContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoDiv{
+  margin-top: 10px;
+}
+.btn-success{
+  background-color: #2E985F;
+}
+
+#ogunLogo{
+ max-width: 88px;
+  max-height: 83px;
+}
+
+.surveyDiv{
+  margin-left: 7%;
+}
+.register{
+  max-width: 1440px;
+  max-height: 407px;
+  padding: 117px;
+  background: url('images/pexels-cytonn-photography-955390.jpg') rgba(46, 152, 95, 0.8);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.registerButton{
+  background: white;
+  padding: 10px 50px 10px 50px;
+  color: #2E985F;
+  margin-top: 14px;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+#imgId{
+  width: 100%;
+  height: 317px;
+  border-radius: 20px;
+  outline: none;
+  object-fit: cover;
+} 
+.posted{
+  width: 30%;
+  max-height: 499px;
+  float: left;
+  margin: 1.66%;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 20px 0 #969696;
+}
+
+.wealth{
+  margin-top: 5px;
+}
+
+.readMore{
+  display: inline-block;
+  color: #2E985F;
+  margin-top: 20px;
+}
+.newPosts{
+  margin-top: 113px;
+  color: #2E985F;
+}
+
+.postsContainer{
+  background: #F8F8F8;
+  padding-bottom: 40px;
+}
+
+.footer{
+  position: relative;
+  max-height: 489px;
+  background: #262626;
+  width: 100%;
+}
+
+table{
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th{
+  border-top: none;
+  color: white;
+}
+
+
+.footerLogo{
+  width: 15%;
+}
+
+.imglogoFooter{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 5%;
+  
+}
+.copyright{
+  height: 100px;
+  border-top: 1px solid white;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.survey{
+  font-size: 20px;
+  color: white;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram{
+  font-size: 15px;
+  color: #000000;
+  padding: 4px;
+  background: #C4C4C4;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.officeInfo{
+  margin-top: 12px;
+}
+
+.fa-less-than{
+  background: #EAEAEA;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 100%;
+}
+.fa-greater-than{
+  margin-left: 30px;
+  background: #EAEAEA;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 100%;
+}
+#postsText{
+  font-size: 36px;
+  font-weight: 900
+}
+.company{
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+
+#login{
+  margin-left: 10px;
+}
+
+.portal{
+  max-width: 100%;
+  height: 100vh;
+  background: url('images/pexels-rebrand-cities-1367276.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+#portalDetails{
+  margin-top: 124px;
+}
+
+h1 span { 
+  background-color: #2E985F; 
+  font-size: 70px;
+  color: white;
+  font-weight: 900;
+}
+.tender{
+  font-size: 36px;
+  color: #2E985F;
+  font-family: 700;
+  margin-top: 60px;
+}
+.des{
+  display: flex;
+}
+.renewalDiv{
+  max-width: 1122px;
+  max-height: 324px;
+  background:white;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 20px 20px 10px 20px;
+  box-shadow: 0px 4px 20px 0 #D8D8D8;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.request{
+  background: #F8F8F8;
+  padding-bottom: 60px;
+}
+.renewalContent{
+  margin-left: 45px;
+}
+
+.project{
+  margin-top: 60px;
+}
+
+.fa-briefcase{
+  margin-top: 16px;
+  margin-left: 12px;
+  font-size: 35px;
+  color: #767676;
+}
+.renewal{
+  font-size: 24px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #767676;
+}
+.dateDiv{
+  display: flex;
+  justify-content: space-between;
+}
+.fa-calendar-alt{
+  font-size: 20px;
+}
+.tenderButton{
+  display: flex;
+  justify-content: flex-end;
+}
+@media all and (max-width:1024px){
+  .portal{
+    max-width: 100%;
+    height: 50vh;
+    background: url('images/pexels-rebrand-cities-1367276.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+  }
+  .imglogoFooter{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 2%;
+    
+  }
+}
